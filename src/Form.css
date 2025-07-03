@@ -1,0 +1,27 @@
+/* src/Form.css */
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  button {
+    width: 100%;
+  }
+  
+  .card {
+    width: 18rem;
+  }
+  
+  .card-img-top {
+    height: 12rem;
+    object-fit: cover;
+  }
+  
