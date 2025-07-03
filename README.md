@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# 👕 Wardrobe Decoder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Wardrobe Decoder is a React-based web application that recommends outfit combinations based on user preferences. It provides a personalized and intelligent way to simplify daily dressing decisions using a sleek and interactive user interface.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🧍 User Authentication (Login & Register)
+- 🧠 Intelligent Outfit Suggestions
+- 📄 Results Page for Final Suggestions
+- 🔀 Client-side Routing (React Router)
+- 🎨 Responsive UI with component-based design
+- ☁️ Firebase Integration for backend services
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 Project Structure
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+WARDROBE_DECODER/
+├── public/
+├── src/
+│ ├── Assets/
+│ ├── Components/
+│ │ ├── Navbar.js
+│ │ ├── Home.js
+│ │ ├── Login.js
+│ │ ├── Register.js
+│ │ ├── Results.js
+│ │ ├── Router.js
+│ │ └── WardrobeDecoder.js
+│ ├── App.js
+│ ├── index.js
+│ └── ...
+├── firebase.json
+├── .gitignore
+├── package.json
+└── README.md
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend**: React.js, CSS
+- **Routing**: React Router
+- **Backend**: Firebase Authentication
+- **Hosting**: Firebase Hosting
+- **Version Control**: Git & GitHub
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🔧 Installation & Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/madhavan1402/wardrobe-decoder.git
+   cd wardrobe-decoder
+Install dependencies
+  - npm install
+Run the app
+  - npm start
+Open in browser : http://localhost:3000 in your browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🌐 Firebase Setup
+Make sure your firebase.js contains your Firebase config.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Use .firebaserc and firebase.json for deploying to Firebase.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To deploy:
+  - firebase init
+  - firebase deploy
 
-## Learn More
+📸 Screenshots
+🔐 Register Page
+![Screenshot 2025-07-03 204821](https://github.com/user-attachments/assets/95de315c-652c-42e7-bcb0-efe6e40ae36d)
+🔑 Login Page
+![Screenshot 2025-07-03 204858](https://github.com/user-attachments/assets/f7c46c91-8da3-4360-8f90-df4bc4a20fac)
+🏠 Home Page
+![Screenshot 2025-07-03 204911](https://github.com/user-attachments/assets/345cc884-59ca-4c14-aa8f-deb2939c2703)
+👕 Outfit Suggestions
+![Screenshot 2025-07-03 205052](https://github.com/user-attachments/assets/ee164530-9c0f-4173-b08c-c0a549703ad8)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🤝 Contributions
+Contributions, issues, and feature requests are welcome!
+Feel free to fork the repository and submit a pull request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🙋‍♂️ Author
+Madhavan N
+B.Tech Artificial Intelligence & Data Science
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
